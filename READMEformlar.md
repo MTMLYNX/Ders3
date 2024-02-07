@@ -17,14 +17,11 @@ Kullanıcının adını ve soyadını girmesi için metin giriş kutuları kulla
 Cinsiyet
 Kullanıcının cinsiyetini seçmesi için radio düğmeleri kullanılmıştır.
 
-html
-
 <p>Erkek</p><input type="radio" id="erkek" name="cinsiyet" value="erkek">
 <p>Kadın</p><input type="radio" id="kadin" name="cinsiyet" value="kadin">
 İlgi Alanları
 Kullanıcının ilgi alanlarını seçmesi için checkbox kullanılmıştır.
 
-html
 
 <label for="basketbol">Basketbol:</label><input type="checkbox" id="basketbol">
 <hr>
@@ -33,13 +30,11 @@ html
 Mesaj
 Kullanıcının bir mesaj bırakması için metin alanı kullanılmıştır.
 
-html
 
 <textarea name="mesaj" id="mesaj" cols="15" rows="5"></textarea>
 Konular
 Kullanıcının ilgilendiği konuyu seçmesi için bir dropdown (select) menü kullanılmıştır.
 
-html
 
 <select name="konular" id="konular">
     <option value="Web">Web Geliştirme</option>
@@ -48,7 +43,6 @@ html
 Gönder Butonları
 Formun gönderilmesini sağlamak için submit ve button düğmeleri kullanılmıştır.
 
-html
 
 <input type="submit" value="ONAYLA">
 <input type="button" value="Onayla">
