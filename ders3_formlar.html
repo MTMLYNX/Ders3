@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>FORMLAR</title>
+</head>
+<body>
+    <!-- form tagı form ile ilgili verileri bir arada tutuyor ayrıca gelen action kısmı doldurulan formların hangi linke gönderileceğini sağlıyor.-->
+    <!-- method özelliği formun gönderim metodunu belirliyor.-->
+    <form action="?" method="">
+            <!-- label çıktı; for özelliği id olarak belirliyor-->
+            <!-- input alıcı bir etiket olduğu için kapanmıyor. tipleri var : type olabilir, id olabilir, name olabilir, required özelliği ise zorunluluğu belirtir. value değerini gösterir. -->
+        <!-- input type özellikleri: 
+            placeholder: yazıyı içinde yazmamızı sağlar ,
+            text: yazı, 
+            radio: cinsiyet veya test gibi tek doğru seçenekli şıklarda kullanılır, 
+            checkbox: birden fazla seçenek işaretlemek için kullanılır, 
+            sumbit: yapılan değişiklikleri en son göndermek için kullanılır,
+            button: sadece düz bir buton  
+            textarea 'da yazıyı kısıtlandırabiliyoruz cols:genişlik, rows: yükseklik-->
+        <label for="ad">Adınız:</label>
+        <input type="text" id="ad" name="ad" required>  
+        <br><br>
+        <input type="text" id="soyad" name="soyad" required placeholder="Soyadınız">   
+        <br><br><br><br>
+        <p>erkek</p><input type="radio" id="erkek" name="cinsiyet" value="erkek">
+        <p>kadın</p><input type="radio" id="kadın" name="cinsiyet" value="kadın">
+        
+        <br><br><br><br>
+    
+        <label>Basketbol:</label><input type="checkbox">
+        <hr><!-- düz ve ince bir çizgi çekmemizi sağlıyor. -->
+        <label>Futbol</label><input type="checkbox">
+        <hr>
+        <input type="submit" value="ONAYLA">
+        <input type="button" value="onayla">
+        <textarea name="" id="" cols="15" rows="5"></textarea>
+            <!-- select tagı seçenekleri tek şekilde gösterir ve birini seçmeyi sağlar.-->
+        <select name="konular" id="konular">
+            <option value="Web">Web Geliştirme</option>
+            <option value="Tasarım">Grafik Tasarım</option>
+        </select>
+
+    </form>
+</body>
+</html>
